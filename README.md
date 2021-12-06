@@ -19,3 +19,33 @@ A machine learning (ML) algorithm based on the following data can be utilized to
 This dataset will involve a supervised learning approach to a classification problem. We will look at accuracy, precision, recall, and f1-score to evaluate the goodness of the model, focusing on the recall portion as our end goal is to minimize the cost the bank spent on marketing.
 
 The risks involved may include overestimation of target customer behavior despite having achieved all necessary aspects to be classified as 'a likely client', and vice versa
+
+## Data Description
+| Column Name | Description  | Type  |
+| :---:   | :---:| :---: |
+| age     | client's age | numeric |
+| job   | type of job  | categorical |
+| marital | marital status | categorical |
+| education| last education | categorical |
+| default  | has credit in default?  | categorical |
+| housing  | has housing loan? | categorical |
+| loan     | has personal loan?  | categorical |
+| contact  | contact communication type| categorical |
+| month     | last contact month of year | categorical |
+| dayofweek | last contact day of the week | categorical |
+| duration     | last contact duration, in seconds| numeric |
+| campaign     | number of contacts performed during this campaign and for this client| numeric |
+| pdays    | number of days that passed by after the client was last contacted from a previous campaign| numeric |
+| previous     | number of contacts performed before this campaign and for this client| numeric |
+| poutcome     | outcome of the previous marketing campaign| categorical |
+| emp.var.rate | employment variation rate - quarterly indicator| numeric |
+|cons.price.idx| consumer price index - monthly indicator|numeric|
+|euribor3m| euribor 3 month rate - daily indicator|numeric|
+|nr.employed|number of employees - quarterly indicator|numeric|
+|y | has the client subscribed a term deposit?|numeric|
+
+## Modeling
+We use Random Forest because this model can be utilised to help the bank's call center to prioritise the call for potential clients and maximise the conversion rate - all while managing minimum cost on marketing.
+
+#Evaluation
+We have got 85% for recall score and AUC Score 0.75. Also by implementing the model, this can give about 2x more revenue to the bank.
