@@ -7,7 +7,7 @@ by:
 This Repository Contains:
 - [Dataset](https://github.com/PurwadhikaDev/DataWarrior_JC_DS_FT_BSD_JKT_14_FinalProject/blob/main/bank-additional-full.csv)
 - [Source Code](https://github.com/PurwadhikaDev/DataWarrior_JC_DS_FT_BSD_JKT_14_FinalProject/blob/main/Final_Project_Purwadhika_Bank_Marketing.ipynb)
-- Presentation
+- [Presentation](https://github.com/PurwadhikaDev/DataWarrior_JC_DS_FT_BSD_JKT_14_FinalProject/blob/main/Presentation/Final%20Project%20Bank%20Marketing%20Campaign.pptx)
 
 Original Data Source: [https://www.kaggle.com/volodymyrgavrysh/bank-marketing-campaigns-dataset](https://www.kaggle.com/volodymyrgavrysh/bank-marketing-campaigns-dataset)
 
